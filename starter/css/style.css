@@ -1,0 +1,88 @@
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 4rem;
+ 
+} 
+
+.container{
+    display: grid;
+    grid-template-rows:4rem 70vh 40vw repeat(8,min-content) ;
+    grid-template-columns:[full-start] minmax( 6rem,1fr) [center-start] repeat(9, [col-start] minmax(max-content,12rem) [col-end] ) [center-end] minmax( 6rem,1fr) [full-end];
+
+}
+
+.story{
+    background-color: brown;
+   
+}
+.nav{
+    background-color: blue;
+}
+
+.header{
+    background-color: blueviolet;
+}
+
+
+.story__pictures{
+ background-color:green ;
+ grid-column: full-start/col-start 6;
+ padding: 3rem 6rem;
+}
+
+
+
+.story__text{
+    background-color: red;
+    grid-column:col-start 6 /full-end;
+    padding: 3rem 6rem;
+}
+
+.success-story{
+    background-color: blue;
+}
+
+.classes{
+    background-color: brown;
+}
+
+
+.partners{
+    background-color: black;
+}
+
+.testimonial{
+    background-color: yellow;
+}
+
+.Q{
+    background-color: tomato;
+}
+
+.events{
+    background-color: slateblue;
+}
+
+.loginform{
+    background-color: chocolate;
+}
+
+.footer{
+    background-color: blueviolet;
+}

@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.h2-p{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #073011;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.form_container{
+    padding: 2.0rem;
+    background-color: rgba(252, 251, 251, 0.932);
+    border-radius: .9rem;
+    width: 35rem;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+}
+
+label{
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.3rem;
+
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    width: 100%;
+    padding: .5rem;
+}
+
+button{
+    outline: none;
+    border: none;
+    display: inline-block;
+    margin-top: 2rem;
+
+    border-radius: .5rem;
+    width: 100%;
+    padding: 0.6rem;
+    color: white;
+    background-color: green;
+}
+
+button:hover,
+button:active{
+    background-color: #218438;
+}
+
+.error-message{
+    color: red;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.inbox-click {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+
+
+.input-label {
+    width: 100%;
+}
+
+.select-rm{
+    width: 10%;
+}
+
+
+
